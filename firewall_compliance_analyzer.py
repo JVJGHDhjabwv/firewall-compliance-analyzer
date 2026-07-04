@@ -3,7 +3,7 @@ import os
 from datetime import date
 from io import BytesIO
 import argparse
-from openpyxl import load_workbook
+
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 from openpyxl.utils.dataframe import dataframe_to_rows
