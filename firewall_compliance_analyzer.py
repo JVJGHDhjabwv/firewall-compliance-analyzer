@@ -4,7 +4,7 @@ import argparse
 from datetime import date
 from openpyxl.styles import PatternFill, Font, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
-
+from io import BytesIO
 
 # ============================================================
 # Firewall Compliance Analyzer
